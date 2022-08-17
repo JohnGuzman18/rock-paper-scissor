@@ -30,13 +30,13 @@ function play(userOption) {
 
     isPlaying = true;
 
-    userImg.src = "img/" + userOption + ".svg";
+    userImg.src = "img/" + userOption + ".png";
 
     resultText.innerHTML = "Chossing!";
 
     const interval = setInterval(function(){
         const machineOption = calcMachineOption();
-        machineImg.src = "img/" + machineOption + ".svg";
+        machineImg.src = "img/" + machineOption + ".png";
     }, 200);
 
     setTimeout(function () {
@@ -46,7 +46,7 @@ function play(userOption) {
         const machineOption = calcMachineOption();
         const result = calcResult(userOption, machineOption);
 
-        machineImg.src = "img/" + machineOption + ".svg";
+        machineImg.src = "img/" + machineOption + ".png";
 
         switch (result) {
             case TIE:
