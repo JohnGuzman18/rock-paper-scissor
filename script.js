@@ -1,6 +1,7 @@
 const ROCK = "rock";
 const PAPER = "paper";
 const SCISSORS = "scissors";
+const RecordsURL = "http://localhost:8080/api/records";
 
 const TIE = 0;
 const WIN = 1;

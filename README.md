@@ -1,3 +1,3 @@
 # rock-paper-scissor
 
-play here:
+play here: 

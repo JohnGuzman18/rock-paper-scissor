@@ -8,8 +8,8 @@
 
 
     button{
-        background: #ee0b97;
-        background-color: #03221a;
+        background: #e80a93;
+        background-color: #e6d40db8;
         border: 4px solid #180101;
         margin: 5px;
     }
@@ -19,7 +19,7 @@
         height: 100vh;
         max-height: 745px;
         margin: 0 auto;
-        background-color: #f47293;
+        background-color: #e1baf1;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
